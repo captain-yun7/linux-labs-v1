@@ -32,8 +32,3 @@ echo "CRITICAL: memory leak detected" >> server-project/logs/access.log
 
 1.  현재 위치가 `server-project` 디렉토리라고 가정합니다. `config/network.conf` 파일에 대한 심볼릭 링크를 `server.conf` 라는 이름으로 `server-project` 디렉토리 바로 아래에 만드세요.
 2.  `ls -l` 명령어로 링크가 잘 생성되었는지, 그리고 원본 파일을 잘 가리키고 있는지 확인하세요.
-
-#### 📝 문제 5: 압축 및 정리 (tar)
-
-1.  `src` 디렉토리와 `config` 디렉토리를 `backup.tar.gz` 라는 이름의 하나의 압축 파일로 만드세요. (힌트: `tar -czvf [파일명] [폴더1] [폴더2]`)
-2.  실습이 끝났으니, 처음에 만들었던 `server-project` 디렉토리 전체를 삭제하세요.
